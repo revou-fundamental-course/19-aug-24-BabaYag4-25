@@ -1,0 +1,451 @@
+html {
+    scroll-behavior: smooth; 
+        }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page-container {
+    background-color: #F2E8C6;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #800000;
+}
+
+.title-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.logo-icon {
+    height: 48px;
+    width: 48px;
+    background-image: url(https://img.freepik.com/premium-vector/crossed-sharp-samurai-katana-swords-concept-vintage-style-isolated_225004-2555.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nav-container {
+    display: flex;
+}
+.nav-item {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #DAD4B5;
+}
+
+.top-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.banner-img {
+    margin-bottom: 50px;
+    height: 600px;
+    width: 1000px;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/ghost-of-tsushima-torii-gate-samurai-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.profile-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.profile-item {
+    height: 200px;
+    text-align: -webkit-center;
+}
+
+.profile-img1 {
+    height: 150px;
+    background-image: url(https://img.freepik.com/premium-photo/unleashing-warrior-spirit-realistic-profile-samurai-full-battle-gear-amidst-wartor_983420-194606.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.profile-img2 {
+    height: 150px;
+    background-image: url(https://lh6.googleusercontent.com/proxy/uNKA8qZFxj733kHj0rECG0NcOHAD-G4zFsuMYo16s4RxXD3IfLTuu71bnAH4qsiN_SQlyVw5xffvlGmXjRdq-7DC05FyGVbZRyHiP_7C2HBhJ5d80Dadbo4N-cA_FpLGn6whDLPE);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.profile-img3 {
+    height: 150px;
+    background-image: url(https://t4.ftcdn.net/jpg/05/88/10/27/360_F_588102797_XbyoTr5hlBASo6QxbDl98b9TrIg9ADp7.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.profile-img4 {
+    height: 150px;
+    background-image: url(https://t3.ftcdn.net/jpg/05/63/58/42/360_F_563584205_dU3GGiVMtyT9OylkxL0W7QG80j5nil3z.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: ;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.message-form label {
+    display: flex;
+}
+
+.name-input {
+    width: 196px;
+}
+
+.date-input {
+    width: 200px;
+}
+
+.answer-box {
+    border: solid 1px black;
+    width: 80%;
+    margin-left: 80px;
+    height: 150px;
+}
+
+.answer-box p {
+    padding-left: 10px;
+}
+
+.tombol {
+    width: 653px;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    text-align: end;
+}
+
+.pesan {
+    width: 500px;
+    height: 100px;
+}
+
+@media screen and (max-width:1200px) {
+    nav {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #800000;
+    }
+    
+    .title-container {
+        text-align: center;
+        font-weight: bolder;
+        font-family: monospace;
+    }
+    
+    .logo-icon {
+        height: 48px;
+        width: 48px;
+        background-image: url(https://img.freepik.com/premium-vector/crossed-sharp-samurai-katana-swords-concept-vintage-style-isolated_225004-2555.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .nav-container {
+        display: flex;
+    }
+    .nav-item {
+        border: 1px solid;
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 8px;
+        background-color: #DAD4B5;
+    }
+    
+    .top-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .paragraph {
+        text-align: justify;
+    }
+    
+    .banner-img {
+        width: 80%;
+        background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/ghost-of-tsushima-torii-gate-samurai-desktop-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .profile-container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .profile-item {
+        height: 200px;
+        text-align: -webkit-center;
+    }
+    
+    .profile-img1 {
+        height: 120px;
+        background-image: url(https://img.freepik.com/premium-photo/unleashing-warrior-spirit-realistic-profile-samurai-full-battle-gear-amidst-wartor_983420-194606.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img2 {
+        height: 120px;
+        background-image: url(https://lh6.googleusercontent.com/proxy/uNKA8qZFxj733kHj0rECG0NcOHAD-G4zFsuMYo16s4RxXD3IfLTuu71bnAH4qsiN_SQlyVw5xffvlGmXjRdq-7DC05FyGVbZRyHiP_7C2HBhJ5d80Dadbo4N-cA_FpLGn6whDLPE);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img3 {
+        height: 120px;
+        background-image: url(https://t4.ftcdn.net/jpg/05/88/10/27/360_F_588102797_XbyoTr5hlBASo6QxbDl98b9TrIg9ADp7.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img4 {
+        height: 120px;
+        background-image: url(https://t3.ftcdn.net/jpg/05/63/58/42/360_F_563584205_dU3GGiVMtyT9OylkxL0W7QG80j5nil3z.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .name-input {
+        width: 196px;
+    }
+    
+    .date-input {
+        width: 200px;
+    }
+    
+    .answer-box {
+        border: solid 1px black;
+    }
+    
+    .answer-box p {
+        padding-left: 10px;
+    }
+    
+    .tombol {
+        width: 300px;
+    }
+    
+    .footer-container {
+        text-align: end;
+    }
+    
+    .pesan {
+        width: 500px;
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #800000;
+    }
+    
+    .title-container {
+        text-align: center;
+        font-weight: bolder;
+        font-family: monospace;
+    }
+    
+    .logo-icon {
+        height: 48px;
+        width: 48px;
+        background-image: url(https://img.freepik.com/premium-vector/crossed-sharp-samurai-katana-swords-concept-vintage-style-isolated_225004-2555.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .nav-container {
+        display: flex;
+    }
+    .nav-item {
+        border: 1px solid;
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 8px;
+        background-color: #DAD4B5;
+    }
+    
+    .top-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .paragraph {
+        text-align: justify;
+    }
+    
+    .banner-img {
+        width: 80%;
+        background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/ghost-of-tsushima-torii-gate-samurai-desktop-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .profile-container {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .profile-item {
+        height: 200px;
+        text-align: -webkit-center;
+    }
+    
+    .profile-img1 {
+        height: 120px;
+        background-image: url(https://img.freepik.com/premium-photo/unleashing-warrior-spirit-realistic-profile-samurai-full-battle-gear-amidst-wartor_983420-194606.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img2 {
+        height: 120px;
+        background-image: url(https://lh6.googleusercontent.com/proxy/uNKA8qZFxj733kHj0rECG0NcOHAD-G4zFsuMYo16s4RxXD3IfLTuu71bnAH4qsiN_SQlyVw5xffvlGmXjRdq-7DC05FyGVbZRyHiP_7C2HBhJ5d80Dadbo4N-cA_FpLGn6whDLPE);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img3 {
+        height: 120px;
+        background-image: url(https://t4.ftcdn.net/jpg/05/88/10/27/360_F_588102797_XbyoTr5hlBASo6QxbDl98b9TrIg9ADp7.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .profile-img4 {
+        height: 120px;
+        background-image: url(https://t3.ftcdn.net/jpg/05/63/58/42/360_F_563584205_dU3GGiVMtyT9OylkxL0W7QG80j5nil3z.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .name-input {
+        width: 196px;
+    }
+    
+    .date-input {
+        width: 200px;
+    }
+    
+    .answer-box {
+        border: solid 1px black;
+    }
+    
+    .answer-box p {
+        padding-left: 10px;
+    }
+    
+    .tombol {
+        width: 300px;
+    }
+    
+    .footer-container {
+        text-align: end;
+    }
+    
+    .pesan {
+        width: 500px;
+        height: 100px;
+    }
+    
+}
